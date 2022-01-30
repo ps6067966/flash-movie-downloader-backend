@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movies",
+  "info": {
+    "singularName": "movie",
+    "pluralName": "movies",
+    "displayName": "Movie"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "movieName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "movieDownloadUrl": {
+      "type": "text",
+      "default": "https://s4.extracloud.club/ExtraMovies.town_PSPA21FMH72HRESD-dXKBH.mkv?dl=dXdwa24zPz89",
+      "required": true,
+      "unique": true
+    },
+    "movieImgUrl": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "movieCategory": {
+      "type": "enumeration",
+      "enum": [
+        "Animation",
+        "DualAudio",
+        "HighRes",
+        "Bollywood"
+      ],
+      "default": "DualAudio",
+      "required": true
+    }
+  }
+}

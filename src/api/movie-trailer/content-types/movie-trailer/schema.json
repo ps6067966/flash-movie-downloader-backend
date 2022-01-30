@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movie_trailers",
+  "info": {
+    "singularName": "movie-trailer",
+    "pluralName": "movie-trailers",
+    "displayName": "MovieTrailer"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "movieName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "youtubeUrl": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    }
+  }
+}
