@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movie_requests",
+  "info": {
+    "singularName": "movie-request",
+    "pluralName": "movie-requests",
+    "displayName": "MovieRequest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "movieName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "userName": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    }
+  }
+}

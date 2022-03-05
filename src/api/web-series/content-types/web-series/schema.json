@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "multi_web_series",
+  "info": {
+    "singularName": "web-series",
+    "pluralName": "multi-web-series",
+    "displayName": "WebSeries",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "webSeriesName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "webSeriesDownloadUrl": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "webSeriesImageUrl": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "numberOfEpisode": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
