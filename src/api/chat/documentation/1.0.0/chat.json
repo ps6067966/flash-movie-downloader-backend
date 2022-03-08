@@ -28,6 +28,9 @@
                               "uid": {
                                 "type": "string"
                               },
+                              "firebaseImgUrl": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -612,6 +615,9 @@
                             "uid": {
                               "type": "string"
                             },
+                            "firebaseImgUrl": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1117,6 +1123,9 @@
                             "uid": {
                               "type": "string"
                             },
+                            "firebaseImgUrl": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1610,6 +1619,9 @@
                             "uid": {
                               "type": "string"
                             },
+                            "firebaseImgUrl": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2092,6 +2104,9 @@
                         "type": "string"
                       },
                       "uid": {
+                        "type": "string"
+                      },
+                      "firebaseImgUrl": {
                         "type": "string"
                       },
                       "createdAt": {

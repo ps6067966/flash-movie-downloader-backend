@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-03-08T14:40:49.489Z"
+    "x-generation-date": "2022-03-08T18:31:32.568Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -76,6 +76,9 @@
                                 "type": "string"
                               },
                               "uid": {
+                                "type": "string"
+                              },
+                              "firebaseImgUrl": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -662,6 +665,9 @@
                             "uid": {
                               "type": "string"
                             },
+                            "firebaseImgUrl": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1167,6 +1173,9 @@
                             "uid": {
                               "type": "string"
                             },
+                            "firebaseImgUrl": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1660,6 +1669,9 @@
                             "uid": {
                               "type": "string"
                             },
+                            "firebaseImgUrl": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2142,6 +2154,9 @@
                         "type": "string"
                       },
                       "uid": {
+                        "type": "string"
+                      },
+                      "firebaseImgUrl": {
                         "type": "string"
                       },
                       "createdAt": {

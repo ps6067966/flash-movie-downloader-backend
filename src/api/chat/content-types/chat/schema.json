@@ -15,7 +15,7 @@
     "chatMessage": {
       "type": "text",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "userName": {
       "type": "string"
@@ -24,6 +24,10 @@
       "type": "text",
       "required": true,
       "unique": false
+    },
+    "firebaseImgUrl": {
+      "type": "text",
+      "required": false
     }
   }
 }
